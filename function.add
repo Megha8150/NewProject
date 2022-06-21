@@ -1,0 +1,31 @@
+#!/bin/bash -x
+read -p "enter first number:" num1
+read -p "Enter second number:" num2
+
+function Addition ()
+{
+sum=$(($num1+$num2))
+echo "Addition is $sum"
+}
+Addition
+
+function Multiplication ()
+{
+mul=$(($num1*$num2))
+echo "multiplication is $mul"
+}
+Multiplication
+
+function Division ()
+{
+div=$(($num1/$num2))
+echo "Division is $div"
+}
+Division
+
+function Substraction ()
+{
+sub=$(($num1-$num2))
+echo "Substraction is $sub"
+}
+Substraction
